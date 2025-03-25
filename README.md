@@ -74,6 +74,8 @@ Support downstream tasks like scouting, lineup building, and transfer evaluation
 |               | **Rebounder**             | Specializes in securing offensive and defensive boards, often providing second-chance opportunities. |
 |               | **Interior Facilitator**  | Connects plays from the post or high elbow; uses vision and touch to set up teammates from inside. |
 
+---
+
 ## 📌 Use Cases
 This player archetyping system has a wide range of use cases for teams, analysts, and researchers:
 
