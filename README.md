@@ -61,7 +61,7 @@ install.packages("e1071")
 
 ---
 
-🤖 Why Fuzzy Clustering?
+## 🤖 Why Fuzzy Clustering?
 Traditional clustering methods (like K-Means) force players into a single archetype, which often oversimplifies their real on-court roles. In contrast, this project uses Fuzzy C-Means Clustering (e1071::cmeans) to assign players membership scores across multiple archetypes.
 
 This approach acknowledges that players often blend styles—for example, a forward may function as both a rim roller and a rebounder, or a guard may mix spot-up shooting with perimeter playmaking.
@@ -75,17 +75,23 @@ Support downstream tasks like scouting, lineup building, and transfer evaluation
 
 ---
 
-## 📊 Archetypes
+## 🧬 Archetype Definitions
 
-After much testing, these twelve emerged as the dominant archetypes.
+| **Main Role** | **Sub-Archetype**         | **Description** |
+|---------------|---------------------------|-----------------|
+| **Hybrid**    | **All Around**            | Balanced contributors across scoring and playmaking zones; capable of finishing at the rim, shooting from distance, and facilitating. |
+|               | **Three-Level Scorer**    | Proficient at scoring from mid-range, beyond the arc, and at the rim; offensively versatile and hard to contain. |
+|               | **Off Ball Wing**         | Moves well without the ball, cuts into space, and scores efficiently when set up by others; thrives within flow offenses. |
+|               | **In-and-Out Facilitator**| Switches between interior and perimeter zones while initiating offense; blends court vision with scoring pressure. |
+| **Perimeter** | **Spot-Up Shooter**       | Excels at catch-and-shoot opportunities from the perimeter; often spaces the floor and capitalizes on kick-outs. |
+|               | **Stretch Shooter**       | Bigs or forwards who can shoot from deep, pulling defenders out of the paint and opening driving lanes. |
+|               | **Playmaker**             | Initiates offense from the outside, creating scoring chances for teammates through passing and decision-making. |
+|               | **Perimeter Scorer**      | Aggressive offensive player focused on shot creation and scoring from the mid-range and three-point line. |
+| **Interior**  | **Rim Roller**            | Strong finisher on pick-and-rolls and cuts to the basket; thrives near the rim off movement and lobs. |
+|               | **Slasher**               | Creates offense by attacking the basket off the dribble or cuts; generates high-pressure rim attempts. |
+|               | **Rebounder**             | Specializes in securing offensive and defensive boards, often providing second-chance opportunities. |
+|               | **Interior Facilitator**  | Connects plays from the post or high elbow; uses vision and touch to set up teammates from inside. |
 
-| Main Role | Sub-Archetypes                                |
-|-----------|-----------------------------------------------|
-| Hybrid    | All Around, Three-Level Scorer, Off Ball Wing, In-and-Out Facilitator |
-| Perimeter | Spot-Up Shooter, Stretch Shooter, Playmaker, Perimeter Scorer         |
-| Interior  | Rim Roller, Slasher, Rebounder, Interior Facilitator                  |
-
----
 
 ## 📈 Output Example
 
