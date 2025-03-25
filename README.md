@@ -1,4 +1,4 @@
-# 🏀 NCAA Men's D1 2022–23 Offensive Archetypes
+# 🏀 NCAA Men's D1 Offensive Archetypes
 
 This repository analyzes player-level offensive tendencies in NCAA Men’s Division 1 basketball (2022–2023 season) and clusters players into interpretable archetypes: **Hybrid**, **Perimeter**, and **Interior**.
 
@@ -73,13 +73,10 @@ install.packages("e1071")
 
 ## 📈 Output Example
 
-Each player receives:
-- A primary cluster label (`clusters`)
-- Membership weights for `Hybrid`, `Perimeter`, `Interior`
-- Sub-archetype scores per role (e.g., `three_level_scorer`, `rim_roller`)
+[View Example Notebook](./ExampleNotebook.ipynb)
 
 ---
 
 ## 📬 Questions?
 
-Feel free to open an issue or contact [your GitHub username] for more info.
+Feel free to open an issue or contact [SchwandersC] for more info.
