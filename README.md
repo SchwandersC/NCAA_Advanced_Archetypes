@@ -61,7 +61,23 @@ install.packages("e1071")
 
 ---
 
+🤖 Why Fuzzy Clustering?
+Traditional clustering methods (like K-Means) force players into a single archetype, which often oversimplifies their real on-court roles. In contrast, this project uses Fuzzy C-Means Clustering (e1071::cmeans) to assign players membership scores across multiple archetypes.
+
+This approach acknowledges that players often blend styles—for example, a forward may function as both a rim roller and a rebounder, or a guard may mix spot-up shooting with perimeter playmaking.
+
+By applying fuzzy clustering at both the macro (Hybrid/Perimeter/Interior) and micro (sub-archetypes) levels, we’re able to:
+
+Capture nuanced player tendencies
+Reflect hybridization in modern basketball roles
+Enable better player comparison and profiling
+Support downstream tasks like scouting, lineup building, and transfer evaluations
+
+---
+
 ## 📊 Archetypes
+
+After much testing, these twelve emerged as the dominant archetypes.
 
 | Main Role | Sub-Archetypes                                |
 |-----------|-----------------------------------------------|
