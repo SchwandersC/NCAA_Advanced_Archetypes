@@ -6,24 +6,6 @@ The project uses fuzzy clustering (via `e1071::cmeans`) to assign soft membershi
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── data/
-│   └── mens_d1_22_23_clusters_revised2.csv     # Cleaned player data with cluster memberships
-│
-├── Archetype Data Cleaning (1).ipynb           # Raw cleaning and prep (Jupyter Notebook)
-├── Main_Clusters.R                             # Main Hybrid/Perimeter/Interior clustering
-├── Hybrid_Positions.R                          # Sub-archetypes for Hybrid offensive players
-├── Perimeter_Positions.R                       # Sub-archetypes for Perimeter offensive players
-├── Interior_Positions.R                        # Sub-archetypes for Interior offensive players
-├── New_Player_Archetypes.R                     # Applies saved cluster centers to new players
-├── README.md                                   # You're here!
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 🔧 Requirements
@@ -92,6 +74,20 @@ Support downstream tasks like scouting, lineup building, and transfer evaluation
 |               | **Rebounder**             | Specializes in securing offensive and defensive boards, often providing second-chance opportunities. |
 |               | **Interior Facilitator**  | Connects plays from the post or high elbow; uses vision and touch to set up teammates from inside. |
 
+## 📌 Use Cases
+This player archetyping system has a wide range of use cases for teams, analysts, and researchers:
+
+🧩 Roster Construction: Identify complementary player types when building lineups or targeting transfers. Blend roles (e.g. stretch shooter + slasher) to optimize spacing and balance.
+
+🔄 Transfer Portal Scouting: Quickly assess how a potential recruit fits into your system by comparing their archetype scores with current or past players.
+
+📈 Player Development: Track how a player’s tendencies evolve across seasons (e.g., increasing perimeter playmaking or shifting toward interior roles).
+
+🎯 Game Planning: Prepare for opponents by profiling their top players’ offensive tendencies—e.g., knowing a player is both a perimeter scorer and off-ball wing helps with matchup assignments.
+
+📊 Research & Media: Provide advanced context beyond box scores when comparing players or writing scouting reports.
+
+Because this system uses fuzzy clustering, players aren't limited to a single label—making it better suited to modern, positionless basketball and hybrid roles.
 
 ## 📈 Output Example
 
