@@ -91,7 +91,7 @@ This player archetyping system has a wide range of use cases for teams, analysts
 
 Because this system uses fuzzy clustering, players aren't limited to a single label—making it better suited to modern, positionless basketball and hybrid roles.
 
---
+---
 
 
 ## 📈 Output Example
